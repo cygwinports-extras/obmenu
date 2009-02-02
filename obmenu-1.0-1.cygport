@@ -1,0 +1,6 @@
+inherit distutils
+
+DESCRIPTION="Openbox menu editor"
+HOMEPAGE="http://obmenu.sourceforge.net/"
+SRC_URI="mirror://sourceforge/obmenu/${P}.tar.gz"
+PATCH_URI="1.0-shebang-flags.patch"

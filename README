@@ -1,0 +1,66 @@
+obmenu
+------------------------------------------
+Obmenu is a menu editor designed for openbox. It's easy to use, allowing 
+to get the most out of the powerful Openbox menu system, while hiding 
+the xml layout from the user. It also (optionally) installs a bunch of 
+dynamic menus (pipe menus), such as Gnome menus or a quick-navigator. 
+You can also use the obxml module to easily write pipe menus of your own 
+in Python.
+
+Runtime requirements:
+  python-2.5.4-1
+  python-gobject2-2.16.0-1
+  python-gtk2-2.14.0-1
+
+Build requirements:
+  cygport-0.4.3-1
+  python-2.5.4-1
+
+Canonical website:
+  http://obmenu.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/obmenu/
+
+-------------------------------------------
+
+Build instructions:
+  unpack obmenu-1.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./obmenu-1.0-X.cygport all
+
+This will create:
+  /usr/src/obmenu-1.0-X-src.tar.bz2
+  /usr/src/obmenu-1.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/obm-dir
+  /usr/bin/obm-moz
+  /usr/bin/obm-nav
+  /usr/bin/obm-xdg
+  /usr/bin/obmenu
+  /usr/lib/python2.5/site-packages/obMenu-1.0-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/obxml.py
+  /usr/lib/python2.5/site-packages/obxml.pyc
+  /usr/lib/python2.5/site-packages/obxml.pyo
+  /usr/share/doc/obmenu-1.0/COPYING
+  /usr/share/doc/obmenu-1.0/README
+  /usr/share/obmenu/mnu16.png
+  /usr/share/obmenu/mnu48.png
+  /usr/share/obmenu/obmenu.glade
+
+------------------
+
+Port Notes:
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
